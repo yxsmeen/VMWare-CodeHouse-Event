@@ -35,9 +35,9 @@ func index() http.Handler {
 			BusinessName string
 			Slogan       string
 		}{
-			Title:        template.HTML("Business &verbar; Landing"),
-			BusinessName: "Business,",
-			Slogan:       "we get things done.",
+			Title:        template.HTML("likeMEet"),
+			BusinessName: "Your best way",
+			Slogan:       "to meet and connect.",
 		}
 		err := templates.ExecuteTemplate(w, "base", &b)
 		if err != nil {
@@ -60,7 +60,7 @@ func main() {
 
 	port, ok := os.LookupEnv("PORT")
 	if !ok {
-		port = "8080"
+		port = "8086"
 	}
 
 	addr := fmt.Sprintf(":%s", port)
