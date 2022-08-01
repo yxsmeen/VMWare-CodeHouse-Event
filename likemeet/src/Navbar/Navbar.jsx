@@ -1,8 +1,7 @@
 import * as React from 'react'; 
-import './Home.css'; 
+import './Navbar.css'; 
 
-
-export default function Home() {
+export default function Navbar() {
     return(
         x
     );
