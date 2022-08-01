@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "likemeet/public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
